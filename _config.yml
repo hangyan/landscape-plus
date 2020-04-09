@@ -2,6 +2,8 @@
 menu:
   Home: /
   Archives: /archives
+  About: /about
+  Links: /links
 rss: /atom.xml
 
 # Content
@@ -17,13 +19,7 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
-- links
 
-# Links
-links:
-  主题作者: http://arvinxiang.com
-  热前端: http://reqianduan.com
-  远程.work: http://yuancheng.work
 
 # Miscellaneous
 google_analytics:
@@ -33,8 +29,10 @@ google_plus:
 fb_admins: 
 fb_app_id:
 
-# Duoshuo
-duoshuo_shortname: reqianduan
 
 # Baidu share
 baidushare: true
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
