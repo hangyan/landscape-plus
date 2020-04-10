@@ -15,7 +15,6 @@ mathjax: false
 sidebar: right
 widgets:
 - category
-- tag
 - tagcloud
 - archive
 - recent_posts
@@ -31,7 +30,7 @@ fb_app_id:
 
 
 # Baidu share
-baidushare: true
+baidushare: false
 
 # widget behavior
 archive_type: 'monthly'
